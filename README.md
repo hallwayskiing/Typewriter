@@ -1,2 +1,2 @@
 # Typewriter
-Write Something Or Just Auto!
+Write Something or Just Auto!
