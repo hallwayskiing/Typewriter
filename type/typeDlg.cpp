@@ -272,7 +272,8 @@ void CTypeDlg::Bonus()
 		{"close",1},
 		{"secret",2},
 		{"suicide",3},
-		{"happy",4}
+		{"happy",4},
+	{"sad",5}
 	};
 	string tmp = CStringA(m_sType);
 	switch (match[tmp])
@@ -289,6 +290,8 @@ void CTypeDlg::Bonus()
 	case 4:
 		MessageBox(L"HAVE A GOOD DAY!", L"Bonus");
 		break;
+	case 5:
+		MessageBox(L"CHEER UP!", L"Bonus");
 	}
 }
 
